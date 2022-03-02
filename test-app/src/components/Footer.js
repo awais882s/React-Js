@@ -1,6 +1,7 @@
+// import "./Footer.css";
 function Footer() {
   return (
-    <div>
+    <div className="FooterColor">
       <p>Footer is Here</p>
     </div>
   );
