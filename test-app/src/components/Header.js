@@ -7,3 +7,13 @@ function Header() {
 }
 
 export default Header;
+// export function Footer() {
+//     return (
+//       <div>
+//         <p>Footer is Here</p>
+//       </div>
+//     );
+//   }
+
+// class components
+// functional components
