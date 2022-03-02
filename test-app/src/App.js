@@ -24,3 +24,9 @@ function App() {
 }
 
 export default App;
+
+// Things to remember while converting your HTML + CSS into React.Js
+// import CSS file using > import "path/file.name"
+// import your images > import imagename from path
+// change your CSS class keyword into ClassName
+// every tag should be seld closed
