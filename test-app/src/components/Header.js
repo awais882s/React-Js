@@ -3,7 +3,7 @@ function Header() {
   return (
     <div>
       <h1>Header1</h1>
-      <img src={awais} alt="awais iqbal" />
+      <img style={{ width: 200 }} src={awais} alt="awais iqbal" />
     </div>
   );
 }
