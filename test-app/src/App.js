@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
+import Image from "./components/Image";
 // import Header ,{Footer} from "./components/Header" /* if two components in a same file*/
 let test = "somedata";
 
@@ -10,15 +11,9 @@ function App() {
   return (
     <div className="App">
       <h1>React Js starting</h1>
-      <p>{test}</p>
+      <p>{test}</p> 
       <Header />
-      <Header />
-
-      <Header />
-
-      <Header />
-
-      <Footer />
+      <Image></Image>
     </div>
   );
 }
