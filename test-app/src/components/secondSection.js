@@ -1,4 +1,4 @@
-function secondSection() {
+function SecondSection() {
   return (
     <tr>
       <td>
@@ -34,4 +34,4 @@ function secondSection() {
     </tr>
   );
 }
-export default secondSection;
+export default SecondSection;

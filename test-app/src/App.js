@@ -1,19 +1,25 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
 import "./App.css";
 import Image from "./components/Image";
 // import Header ,{Footer} from "./components/Header" /* if two components in a same file*/
-let test = "somedata";
+// made a new assignment of naveed sarwar import all files below here
+
+import Header from "./components/Header/index"
+import FirstSection from "./components/firstSection"
+import SecondSection from "./components/secondSection"
+import Footer from "./components/Section/index"
+
 
 function App() {
   return (
     <div className="App">
-      <h1>React Js starting</h1>
-      <p>{test}</p> 
-      <Header />
-      <Image></Image>
+      <Header></Header>
+      <FirstSection></FirstSection>
+      <SecondSection></SecondSection>
+      <Footer></Footer>
     </div>
   );
 }
