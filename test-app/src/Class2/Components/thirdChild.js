@@ -2,7 +2,7 @@ import Button from "./Button";
 function ThirdChild() {
   return (
     <div>
-      <Button title="Learn HTML"></Button>
+      <Button color="green" title="Learn HTML"></Button>
       {/* <button>HTML Tags</button> */}
     </div>
   );
