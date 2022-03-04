@@ -6,23 +6,20 @@ import "./App.css";
 // made a new assignment of naveed sarwar import all files below here
 // class 01 Imports
 // import Image from "./Class1/components/Image";
-// import Header from "./Class1/Header/index"
-// import FirstSection from "./Class1/firstSection"
-// import SecondSection from "./Class1/secondSection"
-// import Footer from "./Class1/Section/index"
+// import Header from "./Class1/Header/index";
+// import FirstSection from "./Class1/firstSection";
+// import SecondSection from "./Class1/secondSection";
+// import Footer from "./Class1/Section/index";
 
 // Class 02 Imports
 
-import Parent from "../src/Class2/Components/parent"
-
-
-
+import Parent from "../src/Class2/Components/parent";
 
 function App() {
   return (
     <div className="App">
       <Parent></Parent>
-    {/* <Image></Image>
+      {/* <Image></Image>
       <Header></Header>
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>

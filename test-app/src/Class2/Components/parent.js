@@ -1,4 +1,5 @@
 import Child from "./child";
+import Button from "./Button";
 function Parent() {
   return (
     <div>
@@ -6,6 +7,7 @@ function Parent() {
       <div>
         <Child></Child>
       </div>
+      <Button title="HTML Tags"></Button>
     </div>
   );
 }
