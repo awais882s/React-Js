@@ -32,23 +32,28 @@ function App() {
       <h3>List of Students</h3>
       <table>
         <tr>
+          <th>No.</th>
           <th>Student Name:</th>
           <th>Student RollNo:</th>
           <th> Student Class:</th>
           <th>Student Batch:</th>
         </tr>
-        <tr>
-          <td>AWAIS</td>
-          <td>5157</td>
-          <td> Saylani</td>
-          <td>Batch-03</td>
-        </tr>
-        <tr>
-          <td>AWAIS</td>
-          <td>5157</td>
-          <td> Saylani</td>
-          <td>Batch-03</td>
-        </tr>
+        {
+          students.map((students, index) => {
+            return (
+              <tr>
+                <td>{index + 1}</td>
+                <td>{students.name}</td>
+                <td>{students.batch}</td>
+                <td> {students.rollno}</td>
+                <td>{students.class}</td>
+              </tr>
+            )
+
+
+          })
+        }
+
       </table>
       <hr />
     </div>
